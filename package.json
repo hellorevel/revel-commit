@@ -1,0 +1,25 @@
+{
+  "name": "revel-commit-beta",
+  "version": "1.0.6",
+  "description": "Commitizen wrapper following the conventional-changelog format and asking for Shortcut story at Revel.",
+  "bin": "./revel-cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellorevel/revel-cz-conventional-changelog-for-shortcut.git"
+  },
+  "author": "Revel Engineering Team <engineering@hellorevel.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hellorevel/revel-commit"
+  },
+  "homepage": "https://github.com/hellorevel/revel-commit",
+  "dependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog-for-shortcut": "^7.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog-for-shortcut"
+    }
+  }
+}
