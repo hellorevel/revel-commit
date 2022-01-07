@@ -1,5 +1,5 @@
 {
-  "name": "revel-commit-beta",
+  "name": "revel-commit",
   "version": "1.0.6",
   "description": "Commitizen wrapper following the conventional-changelog format and asking for Shortcut story at Revel.",
   "bin": "./revel-cli.js",

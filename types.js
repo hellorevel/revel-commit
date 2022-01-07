@@ -64,4 +64,8 @@ module.exports = {
     description: " Reverts a previous commit",
     title: "Reverts",
   },
+  "🚧 wip": {
+    description: "A commit not meant to be included in main branch",
+    title: "Work in Progress",
+  },
 };
