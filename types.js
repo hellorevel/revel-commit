@@ -8,19 +8,19 @@ module.exports = {
     title: "Features",
   },
   "🐞 fix": {
-    description: " A bug fix",
+    description: "A bug fix",
     title: "Bug Fixes",
   },
   "🎨 ui": {
-    description: " Updates to the UI and style files",
+    description: "Updates to the UI and style files",
     title: "UI",
   },
   "🚸 ux": {
-    description: " Improvements to user experience / usability",
+    description: "Improvements to user experience / usability",
     title: "Bug Fixes",
   },
   "🔎 seo": {
-    description: " Improvements to SEO",
+    description: "Improvements to SEO",
     title: "SEO",
   },
   "⚡ perf": {
@@ -28,11 +28,11 @@ module.exports = {
     title: "Performance",
   },
   "🔐 security": {
-    description: " A security issue fix",
+    description: "A security issue fix",
     title: "Security",
   },
   "📚 docs": {
-    description: " Documentation only changes",
+    description: "Documentation only changes",
     title: "Documentation",
   },
   "✅ test": {
@@ -40,28 +40,28 @@ module.exports = {
     title: "Tests",
   },
   "♻️ refactor": {
-    description: " A code change that neither fixes a bug nor adds a feature",
+    description: "A code change that neither fixes a bug nor adds a feature",
     title: "Code Refactoring",
   },
   "🧼 style": {
-    description: " Improvements to structure / format of the code",
+    description: "Improvements to structure / format of the code",
     title: "Style",
   },
   "🔧 chore": {
-    description: " Other changes that don't modify src or test files",
+    description: "Other changes that don't modify src or test files",
     title: "Chores",
   },
   "👷 build": {
     description:
-      " Changes that affect the build system or external dependencies",
+      "Changes that affect the build system or external dependencies",
     title: "Builds",
   },
   "💚 ci": {
-    description: " Changes to our CI configuration files and scripts",
+    description: "Changes to our CI configuration files and scripts",
     title: "Continuous Integrations",
   },
   "🔙 revert": {
-    description: " Reverts a previous commit",
+    description: "Reverts a previous commit",
     title: "Reverts",
   },
   "🚧 wip": {

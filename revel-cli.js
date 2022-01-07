@@ -2,11 +2,11 @@
 "use strict";
 
 const path = require("path");
-const bootstrap = require("commitizen/dist/cli/git-cz").bootstrap;
+const bootstrap = require("@dionlarson/commitizen/dist/cli/git-cz").bootstrap;
 
 bootstrap({
-  cliPath: path.join(__dirname, "../../node_modules/commitizen"),
+  cliPath: path.join(__dirname, "../../node_modules/@dionlarson/commitizen"),
   config: {
-    path: "./cz-config.js",
+    path: path.join(__dirname, "./cz-config.js"),
   },
 });
