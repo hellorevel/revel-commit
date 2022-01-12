@@ -26,6 +26,6 @@
     }
   },
   "devDependencies": {
-    "revel-commit": "^1.1.2"
+    "revel-commit": "^1.2.0"
   }
 }
