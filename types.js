@@ -4,7 +4,7 @@
 
 module.exports = {
   "✨ feat": {
-    description: "A new feature that is long",
+    description: "A new feature",
     title: "Features",
   },
   "🐞 fix": {
@@ -67,5 +67,9 @@ module.exports = {
   "🚧 wip": {
     description: "A commit not meant to be included in main branch",
     title: "Work in Progress",
+  },
+  "📱 feat": {
+    description: "A new feature specific to the native mobile apps",
+    title: "Mobile Features",
   },
 };
