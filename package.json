@@ -1,6 +1,6 @@
 {
   "name": "revel-commit",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Commitizen wrapper following the conventional-changelog format and asking for Shortcut story at Revel.",
   "bin": "./revel-cli.js",
   "repository": {
@@ -19,6 +19,9 @@
   "dependencies": {
     "commitizen": "^4.2.4",
     "cz-conventional-changelog-for-shortcut": "^7.2.2"
+  },
+  "resolutions": {
+    "minimist": "1.2.6"
   },
   "config": {
     "commitizen": {
